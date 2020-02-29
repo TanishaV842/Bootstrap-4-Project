@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googlepis.com/css?family=Lato:400,700");
+.content-wrapper img {
+  width: 100%;
+}
+
+.text-wrapper {
+  width: 100%;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+}
+
+.text-wrapper h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: 700;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+
+.content-wrapper {
+  border-width: medium;
+  border-radius: 0;
+  letter-spacing: 4.8px;
+  padding-bottom: 16px;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  text-shadow: 0.1rem 0.1rem 0.8rem blue;
+}
+
+.menu-bar {
+  min-height: 8%;
+  background: tan;
+}
+
+.menu-bar img {
+  width: 150px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1.6px;
+}
+
+.navbar-nav li {
+  padding-right: 11.2px;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.active {
+  color: black !important;
+}
+
+.navbar-toggler .fa {
+  color: white;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.lead {
+  background-color: aliceblue;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.h3 {
+  margin-bottom: auto;
+}
+.press-logo {
+  width: 50%;
+  margin: 20px 20px 50px;
+  text-align: center;
+}
+#press {
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.footer-obj {
+  min-height: 15%;
+  background-image: linear-gradient(to right, orange, tan);
+  padding: 21px 0;
+  display: inline-flex;
+  color: black;
+  background-image: linear-gradient(beige, tan);
+  text-align: center;
+}
+.footer-text {
+  padding-left: 25px;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+}
+.footer-obj .fa {
+  font-size: 25px;
+}
+.row {
+  margin: 0 !important;
+}
+.social-icons .fa {
+  padding: 10px;
+  color: black;
+}
+@media only screen and (max-width: 960px);
+
+
+.p {
+    margin-bottom: 20px;
+  }
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-instagram {
+  color: #517fa8;
+}
+.fa-twitter {
+  color: #00aced;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover {
+  color: blue;
+}
